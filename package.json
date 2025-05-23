@@ -1,0 +1,19 @@
+{
+    "name": "google-photos-screensaver",
+    "version": "1.0.0",
+    "main": "dist/main.js",
+    "description": "Electron + TypeScript boilerplate",
+    "scripts": {
+        "build": "tsc -p .",
+        "start": "npm run build && electron .",
+        "start:debug": "npm run build && electron --inspect=9229 ."
+    },
+    "devDependencies": {
+        "@types/node": "^20.0.0",
+        "@types/electron": "^25.0.0",
+        "typescript": "^5.0.0"
+    },
+    "dependencies": {
+        "electron": "^29.0.0"
+    }
+}
